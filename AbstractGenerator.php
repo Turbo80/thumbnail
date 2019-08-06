@@ -1,13 +1,13 @@
 <?php
 
-namespace Kollarovic\Thumbnail;
+namespace Core\Thumbnail;
 
 use Nette;
 use    Nette\Http\IRequest;
 
 
 /**
- * @author  Mario Kollarovic
+ * 
  *
  * AbstractGenerator
  */
