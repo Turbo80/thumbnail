@@ -8,7 +8,7 @@ use Nette;
 /**
  * Extension
  *
- * @author  Mario Kollarovic
+ * 
  */
 class Extension extends Nette\DI\CompilerExtension
 {
