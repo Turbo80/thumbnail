@@ -8,6 +8,8 @@ Usage
 
 <img src="{$image|thumbnail: 150, 150}" />
 
+```
+
 config.neon
 
 ```yaml
