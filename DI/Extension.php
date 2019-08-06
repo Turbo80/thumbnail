@@ -1,6 +1,6 @@
 <?php
 
-namespace Kollarovic\Thumbnail\DI;
+namespace Core\Thumbnail\DI;
 
 use Nette;
 
@@ -28,7 +28,7 @@ class Extension extends Nette\DI\CompilerExtension
 		$config = $this->validateConfig($defaults);
 
 		$builder->addDefinition($this->prefix('thumbnail'))
-			->setFactory('Kollarovic\Thumbnail\Generator', array(
+			->setFactory('Core\Thumbnail\Generator', array(
 				'wwwDir' => $config['wwwDir'],
 				'httpRequest' => $config['httpRequest'],
 				'thumbPathMask' => $config['thumbPathMask'],
